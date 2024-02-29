@@ -1,13 +1,14 @@
 #include <stdio.h>
 int main()
 {
-	int a = 1;
-	while (a <= 10)
+	int i = 1;
+	while (i <= 100)
 	{
-		printf("%d ", a);
-		a++;
+		i++;
+		if (i == 5)
+			continue;
+		printf("%d ", i);
+		
 	}
-
-
 	return 0;
 }
