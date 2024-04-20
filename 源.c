@@ -1,32 +1,32 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include <stdio.h>
-int main()
-{
-	int ch = 0;
-	while((ch=getchar()) != EOF)
-	{
-		if (ch < '0' || ch>'9')
-			continue;
-		putchar(ch);
-	}
-	//int ret = 0;
-	//int ch = 0;
-	//char password[20] = { 0 };
-	//printf("请输入密码:>");
-	//scanf("%s", password);
-	//while ((ch = getchar()) !='\n')
-	//{
-	//	;
-	//}
-	//printf("请确认(Y/N):");
-	//ret = getchar();
-	//if (ret == 'Y')
-	//{
-	//	printf("成功\n");
-	//}
-	//else
-	//{
-	//	printf("失败\n");
-	//}
-	return 0;
-}
+
+//{
+//	int m = 24;
+//	int n = 18;
+//	int i = 0;
+//	scanf("%d%d", &m, &n);
+//	while (i = m % n)
+//	{
+//		//i = m % n;
+//		m = n;
+//		n = i;
+//	}
+//	printf("%d\n",n);
+//	return 0;
+//}
+
+
+
+
+
+//int main()
+//{
+//	int i = 1;
+//	for (i = 1; i <= 100; i++)
+//	{
+//		if (i % 3 == 0)
+//			printf("%d ", i);
+//	}
+//	return 0;
+//}
